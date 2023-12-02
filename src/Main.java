@@ -21,7 +21,6 @@ public class Main {
                     System.out.println(i);
                 }
 
-                //Collections.rotate(menu.subList(menu.size() - 2, menu.size()), -1); Essa parte era um teste para realocar as posições do ArrayList
                 System.out.println("Selecione a opção desejada: Entre 1 e " + menu.size());
                 System.out.println();
                 selecionaItem = Integer.parseInt(sc.nextLine()) - 1;
